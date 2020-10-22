@@ -1,0 +1,3 @@
+g++  -O3  -I/dir/to/gsl/include -l gsl -l gslcblas -L/dir/to/gsl/lib -o ProbeEffects AnalysisDomain.cpp BackgroundDomain.cpp BackgroundModel.cpp BackgroundModel_MAT.cpp BackgroundModel_MedianGC.cpp BackgroundModel_None.cpp BPMAPFileData2.cpp CELFileData.cpp  ChipBase.cpp chip_data.cpp ClfInfo.cpp cluster.cpp  FileIO.cpp mathLib.cpp my_math.cpp Model_AffyLiWong.cpp Model_ProbeSelection.cpp Parameters.cpp PresenceAbsenceModel_MAT.cpp PresenceAbsenceModel_MedianGC.cpp Probe.cpp ProbeBase.cpp ProbeEffects.cpp Probeset.cpp StringTokenizer.cpp TranscriptCluster.cpp TranscriptClusterDomain.cpp
+ 
+
